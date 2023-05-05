@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "imagen": "img/remera.png",
+        "categoria": "Verano",
+        "nombre": "Remera Arrow",
+        "precio": 3000,
+        "stock": 2
+    },
+    {
+        "id": 2,
+        "imagen": "img/lentes.png",
+        "categoria": "Accesorios",
+        "nombre": "Lentes",
+        "precio": 4000,
+        "stock": 3
+    },
+    {
+        "id": 3,
+        "imagen": "img/Jean.png",
+        "categoria": "Verano",
+        "nombre": "Jean Desing",
+        "precio": 9000,
+        "stock": 3
+    },
+    {
+        "id": 4,
+        "imagen": "img/buzo.png",
+        "categoria": "Invierno",
+        "nombre": "Buzo con capucha",
+        "precio": 5000,
+        "stock": 2
+    },
+    {
+        "id": 5,
+        "imagen": "img/bermuda.png",
+        "categoria": "Verano",
+        "nombre": "Bermuda camuflada",
+        "precio": 5000,
+        "stock": 3
+    },
+    {
+        "id": 6,
+        "imagen": "img/tapado.png",
+        "categoria": "Invierno",
+        "nombre": "Tapado",
+        "precio": 10000,
+        "stock": 3
+    },
+    {
+        "id": 7,
+        "imagen": "img/capera.png",
+        "categoria": "Invierno",
+        "nombre": "Campera de jean",
+        "precio": 8000,
+        "stock": 3
+    },
+    {
+        "id": 8,
+        "imagen": "img/billetera.png",
+        "categoria": "Accesorios",
+        "nombre": "Billetera",
+        "precio": 2000,
+        "stock": 3
+    }
+]

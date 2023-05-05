@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#baner1 {
+    width: 100%;
+    height: 400px;
+    background-position: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    z-index: 3;
+    font-size: 10rem;
+}
+
+.baner {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: 49% 53%;
+    position: relative;
+    z-index: -3;
+    opacity: .8;
+}
+
+
+.tienda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.tienda .elementos {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:200px auto;
+    grid-template-areas:
+        "opciones productos"
+    ;
+}
+
+h2 {
+    font-size: 5rem;
+    margin: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 4px 2px 2px #bbac9e !important;
+}
+
+h3{
+    margin: 7px;
+}
+.fondo {
+/*     background-image: url(../img/madera.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    
+
+    position: absolute;
+    z-index: -3;
+    opacity: 0.3;
+    width: 100%;
+    height: 140rem;
+
+}
+
+.tienda .filtros {
+    grid-area: opciones;
+    display: flex;
+    flex-direction: column;
+    list-style: none; 
+    
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+
+}
+.form-switch .form-check-input{
+    width: 45px;
+    height: 20px;
+}
+
+label {
+    display: block;
+}
+
+label:hover {
+    opacity: .7;
+}
+
+#buscador{
+    font-size: 1rem !important;
+    width: 90%;
+}
+.titulos{
+    border: none;
+    background: none;
+    font-size: 25px;
+
+}
+
+.imagenes {
+    width: 340px;
+    height: 360px;
+}
+#contenedor{
+    grid-area: productos;
+}
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.tarjeta {
+    box-shadow: 4px 2px 10px 2px #bbac9e !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.boton {
+    margin-bottom: 1rem;
+    line-height:20px ;
+    background-color: #bbac9e !important;
+    border-color: #bbac9e !important;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+}
+.form-control{
+    box-shadow: 4px 2px 10px 2px #bbac9e !important;
+}
+.tarjeta .precio {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.tarjeta p {
+    font-size: 1.6em;
+}
+
+#campoCarrito{
+    border: solid;
+    width: 180px;
+    height: 500px;
+    background-color: rgb(209, 207, 205, .6);
+}
+.ocultar{
+    display: none;
+}
+
+.mostrar{
+    display:contents;
+}
+
+.icono{
+    width: 20px;
+    z-index: 0;
+    background-color: brown;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login input{
+    max-width: 70%;
+}
+.btn{
+    margin-top: 1rem;
+}
+
+.form-check-input:checked{
+    background-color: #bbac9e;
+    border-color: #bbac9e;
+}
